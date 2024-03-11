@@ -20,14 +20,14 @@ public class WebController {
 
   @GetMapping("/")
   public String index(Model model) {
-    //model.addAttribute("springResources", this.springResources);
-    model.addAttribute("springResources", new SpringResources(new HashMap<>(
+    model.addAttribute("springResources", this.springResources);
+    /* model.addAttribute("springResources", new SpringResources(new HashMap<>(
         Map.of("Spring",List.of(
             new Link("Spring","https://spring.io"),
             new Link("Spring Academy","https://spring.academy")
 
         ))
-    )));
+    )));*/
     return "spring";
   }
 

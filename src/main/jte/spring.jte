@@ -1,9 +1,6 @@
 @import com.bootiful.frontend.web.WebController.SpringResources
 @param SpringResources springResources
 
-<head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sakura.css/css/sakura.css" type="text/css">
-</head>
 
 <h1>
     Resources for Learning Spring
